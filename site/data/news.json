@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T14:14:57.922Z",
+  "updatedAt": "2026-11-16T23:44:51.441Z",
   "sources": [
     {"id":"security-next","name":"Security NEXT","site":"https://www.security-next.com/","ok":true},
     {"id":"scan-netsecurity","name":"ScanNetSecurity","site":"https://scan.netsecurity.ne.jp/","ok":true},
@@ -10,7 +10,26 @@
     {"id":"ipa","name":"IPA","site":"https://www.ipa.go.jp/security/","ok":true}
   ],
   "items": [
+    {"title":"When I'm Twenty-Eight 第1回 中島明日香","url":"https://scan.netsecurity.ne.jp/article/2026/11/17/56812.html","source":"scan-netsecurity","category":"other","publishedAt":"2026-11-16T23:20:02.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
+    {"title":"ユナイテッド・スーパーマーケット・ホールディングス株式会社が Securify で実践する、現業部門を巻き込んだ継続的リスク管理","url":"https://scan.netsecurity.ne.jp/article/2026/11/17/56811.html","source":"scan-netsecurity","category":"other","publishedAt":"2026-11-16T23:15:02.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
+    {"title":"出社や顧客訪問で1日5,000円支給、新卒総合職 月10万円 ～ HENNGE「対面コミュニケーション賞与」さらに増額","url":"https://scan.netsecurity.ne.jp/article/2026/11/17/56810.html","source":"scan-netsecurity","category":"other","publishedAt":"2026-11-16T23:10:03.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
+    {"title":"入居申込サービス「GoWeb」にSQLインジェクション攻撃","url":"https://scan.netsecurity.ne.jp/article/2026/11/17/56809.html","source":"scan-netsecurity","category":"other","publishedAt":"2026-11-16T23:05:29.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
+    {"title":"アンケートサイト「Qzoo」にSQLインジェクション攻撃","url":"https://scan.netsecurity.ne.jp/article/2026/11/17/56808.html","source":"scan-netsecurity","category":"other","publishedAt":"2026-11-16T23:05:25.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
+    {"title":"アクティブ運営の通販サイトにSQLインジェクション攻撃、最大5万4,916件の顧客情報が流出した可能性","url":"https://scan.netsecurity.ne.jp/article/2026/11/17/56807.html","source":"scan-netsecurity","category":"incident","publishedAt":"2026-11-16T23:05:23.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
+    {"title":"エディオンECサイトに不正アクセス、不正なプログラムが組み込まれる改ざんが新たに判明","url":"https://scan.netsecurity.ne.jp/article/2026/11/17/56806.html","source":"scan-netsecurity","category":"incident","publishedAt":"2026-11-16T23:05:21.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
+    {"title":"よーじやの会員情報管理システムに不正アクセス、店舗・オンラインショップ・アプリに登録のあった顧客の個人情報が漏えい","url":"https://scan.netsecurity.ne.jp/article/2026/11/17/56805.html","source":"scan-netsecurity","category":"incident","publishedAt":"2026-11-16T23:05:18.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
+    {"title":"「teket」に不正アクセス","url":"https://scan.netsecurity.ne.jp/article/2026/11/17/56804.html","source":"scan-netsecurity","category":"incident","publishedAt":"2026-11-16T23:05:16.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
+    {"title":"機関投資家向けIR情報提供サービス「機関Navi」に不正アクセス","url":"https://scan.netsecurity.ne.jp/article/2026/11/17/56803.html","source":"scan-netsecurity","category":"incident","publishedAt":"2026-11-16T23:05:14.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
+    {"title":"Cuenoteへの不正アクセス、インプレスのメールマガジン「DIGITAL X News」の会員情報 約5万8,000件が漏えい","url":"https://scan.netsecurity.ne.jp/article/2026/11/17/56802.html","source":"scan-netsecurity","category":"incident","publishedAt":"2026-11-16T23:05:11.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
+    {"title":"住民記録システム移行作業でテストデータを誤送信しマイナンバーカード失効","url":"https://scan.netsecurity.ne.jp/article/2026/11/17/56801.html","source":"scan-netsecurity","category":"incident","publishedAt":"2026-11-16T23:05:08.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
+    {"title":"NewsPicksに管理ツールの脆弱性を突いた不正アクセス","url":"https://scan.netsecurity.ne.jp/article/2026/11/17/56800.html","source":"scan-netsecurity","category":"incident","publishedAt":"2026-11-16T23:05:06.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
+    {"title":"医療関係者向け情報提供ウェブサイト「Pharma DIGITAL」にサイバー攻撃、医療従事者55万8,000名の個人情報が漏えいした可能性","url":"https://scan.netsecurity.ne.jp/article/2026/11/17/56799.html","source":"scan-netsecurity","category":"incident","publishedAt":"2026-11-16T23:05:03.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
+    {"title":"HENNGE One、メールDXプラットフォーム「yaritori」とSSO連携","url":"https://scan.netsecurity.ne.jp/article/2026/11/17/56798.html","source":"scan-netsecurity","category":"other","publishedAt":"2026-11-16T23:00:03.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
+    {"title":"スーパーコンピューター「富岳」への不正アクセスについてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/17/030254","source":"piyolog","category":"incident","publishedAt":"2026-11-16T18:02:54.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
+    {"title":"2026年3Qのソフト製品の脆弱性届出 - スマホアプリが最多","url":"https://www.security-next.com/191998","source":"security-next","category":"vuln","publishedAt":"2026-11-16T14:32:22.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
     {"title":"Google、人間の関与なしに脆弱性を見つけて悪用するAIフレームワークを初めて観測　GTIGのAI脅威レポート","url":"https://www.itmedia.co.jp/news/article/2611/16/2000003244/","source":"itmedia","category":"vuln","publishedAt":"2026-11-16T14:00:56.000Z","firstSeenAt":"2026-11-16T14:09:17.541Z"},
+    {"title":"通信販売サイトで個人情報が流出 - 靖国神社","url":"https://www.security-next.com/192746","source":"security-next","category":"incident","publishedAt":"2026-11-16T13:10:18.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
+    {"title":"フィッシング被害で個人情報流出の可能性 - 八十二長野銀","url":"https://www.security-next.com/192395","source":"security-next","category":"incident","publishedAt":"2026-11-16T11:46:12.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
     {"title":"理化学研究所のスパコン富岳関連システムが不正アクセスを受け利用者へメール通知","url":"https://cybersecurity-jp.com/news/118519","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-16T08:01:23.000Z","firstSeenAt":"2026-11-16T14:09:17.541Z"},
     {"title":"米連邦航空局の通信障害による全米空港の地上待機についてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/16/150745","source":"piyolog","category":"other","publishedAt":"2026-11-16T06:07:45.000Z","firstSeenAt":"2026-11-16T14:09:17.541Z"},
     {"title":"FTPSとは？仕組みとSFTPとの違い、設定ミスで暗号化されないリスク","url":"https://cybersecurity-jp.com/column/118495","source":"cybersecurity-jp","category":"other","publishedAt":"2026-11-16T06:03:20.000Z","firstSeenAt":"2026-11-16T14:09:17.541Z"},
