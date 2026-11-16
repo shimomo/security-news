@@ -1,0 +1,373 @@
+:root {
+  color-scheme: light dark;
+  --bg: #f6f6f4;
+  --surface: #ffffff;
+  --text: #1b1c1f;
+  --text-sub: #595d66;
+  --text-faint: #8b9099;
+  --border: #e2e3e7;
+  --accent: #2456c5;
+  --incident-bg: #fdeaea;
+  --incident-text: #a11d1d;
+  --vuln-bg: #fcefd6;
+  --vuln-text: #855000;
+  --warn-text: #a14a00;
+  --max-width: 880px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #131416;
+    --surface: #1b1c20;
+    --text: #e7e8eb;
+    --text-sub: #a4a8b1;
+    --text-faint: #7a7f89;
+    --border: #2d2f35;
+    --accent: #8fb0ff;
+    --incident-bg: #4b1d1d;
+    --incident-text: #ffb4b4;
+    --vuln-bg: #46310d;
+    --vuln-text: #ffd48c;
+    --warn-text: #ffb46b;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* 絞り込みで一覧が短くなっても、スクロールバーの有無で画面が横にずれないようにする */
+html {
+  scrollbar-gutter: stable;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic UI", Meiryo, system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.site-header,
+.toolbar-inner,
+main,
+.site-footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 4px 16px;
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.status {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-sub);
+}
+
+.status .new-count {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.status .stale {
+  color: var(--warn-text);
+}
+
+/* 絞り込み */
+.toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.toolbar-inner {
+  display: grid;
+  gap: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.chip {
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text-sub);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.chip:hover {
+  color: var(--text);
+  border-color: var(--text-faint);
+}
+
+.chip[aria-pressed="true"] {
+  background: var(--text);
+  border-color: var(--text);
+  color: var(--bg);
+}
+
+.fields {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+select,
+input[type="search"] {
+  height: 34px;
+  padding: 0 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+}
+
+select {
+  max-width: 45%;
+}
+
+input[type="search"] {
+  flex: 1;
+  min-width: 0;
+}
+
+:is(select, input, button, a):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.count {
+  flex: none;
+  min-width: 4em;
+  text-align: right;
+  font-size: 13px;
+  color: var(--text-sub);
+  font-variant-numeric: tabular-nums;
+}
+
+/* 一覧 */
+main {
+  padding-top: 4px;
+  padding-bottom: 32px;
+}
+
+.day h2 {
+  margin: 24px 0 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-sub);
+}
+
+.day ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 3.2em 4.6em minmax(0, 1fr) auto;
+  grid-template-areas: "time tag title source";
+  align-items: baseline;
+  gap: 0 10px;
+  padding: 9px 14px 9px 18px;
+}
+
+.item + .item {
+  border-top: 1px solid var(--border);
+}
+
+.item time {
+  grid-area: time;
+  font-size: 12px;
+  color: var(--text-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+/* 広い画面では、分類と取得元を見出しの左右の列にそれぞれ置く */
+.item .meta {
+  display: contents;
+}
+
+.tag {
+  grid-area: tag;
+  justify-self: start;
+  display: inline-block;
+  padding: 0 7px;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 1.7;
+  white-space: nowrap;
+}
+
+.tag-incident {
+  background: var(--incident-bg);
+  color: var(--incident-text);
+}
+
+.tag-vuln {
+  background: var(--vuln-bg);
+  color: var(--vuln-text);
+}
+
+.item a {
+  grid-area: title;
+  color: var(--text);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.item a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* 読んだ記事は薄くして、未読を見つけやすくする */
+.item a:visited {
+  color: var(--text-faint);
+}
+
+.item .source {
+  grid-area: source;
+  font-size: 12px;
+  color: var(--text-sub);
+  white-space: nowrap;
+}
+
+/* 前回の訪問以降に集めた記事の印 */
+.item.is-new::before {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 1.25em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.empty {
+  margin: 40px 0;
+  text-align: center;
+  color: var(--text-sub);
+}
+
+.more {
+  display: block;
+  margin: 20px auto 0;
+  padding: 8px 20px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.more:hover {
+  border-color: var(--text-faint);
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.site-footer {
+  padding-top: 16px;
+  padding-bottom: 40px;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--text-sub);
+}
+
+.site-footer p {
+  margin: 0 0 6px;
+}
+
+.site-footer a {
+  color: inherit;
+  text-underline-offset: 3px;
+}
+
+.site-footer .failed {
+  color: var(--warn-text);
+}
+
+@media (max-width: 640px) {
+  /* 狭い画面では絞り込みが数行になるため、上部に固定せず一覧を広く見せる */
+  .toolbar {
+    position: static;
+  }
+
+  .item {
+    grid-template-columns: 3.2em minmax(0, 1fr);
+    grid-template-areas:
+      "time title"
+      ".    meta";
+    gap: 2px 8px;
+  }
+
+  /* 狭い画面では、分類と取得元を見出しの下に 1 行で並べる */
+  .item .meta {
+    grid-area: meta;
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+  }
+
+  .fields {
+    flex-wrap: wrap;
+  }
+
+  select {
+    max-width: none;
+    flex: 1 1 100%;
+  }
+}

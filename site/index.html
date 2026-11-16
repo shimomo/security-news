@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="color-scheme" content="light dark">
+  <title>国内セキュリティニュース</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%232456c5' d='M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1>国内セキュリティニュース</h1>
+    <p class="status" id="status" role="status">読み込み中…</p>
+  </header>
+
+  <div class="toolbar">
+    <div class="toolbar-inner">
+      <div class="chips" id="categories" role="group" aria-label="分類で絞り込む">
+        <button type="button" class="chip" data-category="all" aria-pressed="true">すべて</button>
+        <button type="button" class="chip" data-category="incident" aria-pressed="false">漏えい・不正アクセス</button>
+        <button type="button" class="chip" data-category="vuln" aria-pressed="false">脆弱性・注意喚起</button>
+        <button type="button" class="chip" data-category="other" aria-pressed="false">その他</button>
+      </div>
+      <div class="fields">
+        <label class="visually-hidden" for="source">取得元で絞り込む</label>
+        <select id="source">
+          <option value="all">すべての取得元</option>
+        </select>
+        <label class="visually-hidden" for="query">キーワードで絞り込む</label>
+        <input id="query" type="search" placeholder="キーワードで絞り込む" autocomplete="off" enterkeyhint="search">
+        <span class="count" id="count" aria-live="polite"></span>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div id="list"></div>
+    <p class="empty" id="empty" hidden>条件に合う記事がありません。</p>
+    <button type="button" class="more" id="more" hidden></button>
+    <noscript><p class="empty">一覧の表示には JavaScript が必要です。</p></noscript>
+  </main>
+
+  <footer class="site-footer">
+    <p>各配信元の RSS から見出しとリンクだけを集めています。記事の内容は各配信元のサイトでご覧ください。分類は見出しのキーワードによる自動判定です。</p>
+    <p class="sources">取得元: <span id="sources"></span></p>
+    <p class="failed" id="failed" hidden></p>
+  </footer>
+</body>
+</html>

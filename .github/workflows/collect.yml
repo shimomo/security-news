@@ -1,0 +1,67 @@
+name: ニュース収集と公開
+
+on:
+  schedule:
+    # 3 時間ごと。混み合う毎時 0 分を避けて 17 分に実行する (日本時間 0:17, 3:17, ... 21:17)
+    - cron: '17 */3 * * *'
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# 収集結果のコミットと公開が重ならないよう、同時に 1 つだけ実行する
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm test
+
+      - name: ニュースを収集する
+        id: collect
+        run: npm run collect
+
+      # 更新日時だけが変わった回はコミットせず、履歴には記事の増減だけを残す
+      - name: 記事に変化があればコミットする
+        if: steps.collect.outputs.changed == 'true'
+        env:
+          ADDED: ${{ steps.collect.outputs.added }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/news.json
+          git commit -m "data: ニュースを更新 (新着 ${ADDED} 件)"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

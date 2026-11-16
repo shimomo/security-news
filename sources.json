@@ -1,0 +1,46 @@
+[
+  {
+    "id": "security-next",
+    "name": "Security NEXT",
+    "site": "https://www.security-next.com/",
+    "feed": "https://www.security-next.com/feed"
+  },
+  {
+    "id": "scan-netsecurity",
+    "name": "ScanNetSecurity",
+    "site": "https://scan.netsecurity.ne.jp/",
+    "feed": "https://scan.netsecurity.ne.jp/rss/index.rdf"
+  },
+  {
+    "id": "cybersecurity-jp",
+    "name": "サイバーセキュリティ.com",
+    "site": "https://cybersecurity-jp.com/",
+    "feed": "https://cybersecurity-jp.com/feed"
+  },
+  {
+    "id": "itmedia",
+    "name": "ITmedia NEWS",
+    "site": "https://www.itmedia.co.jp/news/security/",
+    "feed": "https://rss.itmedia.co.jp/rss/2.0/news_security.xml"
+  },
+  {
+    "id": "piyolog",
+    "name": "piyolog",
+    "site": "https://piyolog.hatenadiary.jp/",
+    "feed": "https://piyolog.hatenadiary.jp/feed"
+  },
+  {
+    "id": "jpcert",
+    "name": "JPCERT/CC",
+    "site": "https://www.jpcert.or.jp/",
+    "feed": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+    "category": "vuln"
+  },
+  {
+    "id": "ipa",
+    "name": "IPA",
+    "site": "https://www.ipa.go.jp/security/",
+    "feed": "https://www.ipa.go.jp/security/alert-rss.rdf",
+    "category": "vuln"
+  }
+]
