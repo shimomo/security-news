@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T23:44:51.441Z",
+  "updatedAt": "2026-11-17T07:55:53.142Z",
   "sources": [
     {"id":"security-next","name":"Security NEXT","site":"https://www.security-next.com/","ok":true},
     {"id":"scan-netsecurity","name":"ScanNetSecurity","site":"https://scan.netsecurity.ne.jp/","ok":true},
@@ -10,6 +10,20 @@
     {"id":"ipa","name":"IPA","site":"https://www.ipa.go.jp/security/","ok":true}
   ],
   "items": [
+    {"title":"FrancfrancがKARTE不正アクセスで会員情報最大598万件の流出可能性を公表","url":"https://cybersecurity-jp.com/news/118584","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-17T07:45:07.000Z","firstSeenAt":"2026-11-17T07:55:53.142Z"},
+    {"title":"アインズ＆トルペ・アユーラ、KARTE不正アクセスで会員情報最大260万件流出か","url":"https://cybersecurity-jp.com/news/118585","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-17T07:41:55.000Z","firstSeenAt":"2026-11-17T07:55:53.142Z"},
+    {"title":"ワールドがKARTE不正アクセスで会員情報の一部漏えいを公表し件数は調査中","url":"https://cybersecurity-jp.com/news/118586","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-17T07:39:10.000Z","firstSeenAt":"2026-11-17T07:55:53.142Z"},
+    {"title":"モリサワが委託先KARTEへの不正アクセスで購入者2万3,957件の情報漏えい","url":"https://cybersecurity-jp.com/news/118587","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-17T07:37:44.000Z","firstSeenAt":"2026-11-17T07:55:53.142Z"},
+    {"title":"SmartHRでNotion AIのチャット記録流出の可能性 委託先に不正アクセス","url":"https://cybersecurity-jp.com/news/118588","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-17T07:35:58.000Z","firstSeenAt":"2026-11-17T07:55:53.142Z"},
+    {"title":"MTGがGoQSystem不正アクセスでギフト配送先1万5,033名分の情報漏えい","url":"https://cybersecurity-jp.com/news/118589","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-17T07:34:10.000Z","firstSeenAt":"2026-11-17T07:55:53.142Z"},
+    {"title":"AIに打ち明けた相談は“広告トラッカー”に筒抜け？　ChatGPT、Claude、Gemini含む42サービスを米大が調査","url":"https://www.itmedia.co.jp/news/article/2611/17/2000003241/","source":"itmedia","category":"other","publishedAt":"2026-11-17T03:00:00.000Z","firstSeenAt":"2026-11-17T07:55:53.142Z"},
+    {"title":"SCS評価制度を見据えたこれからのセキュリティ強化策 ～実践的対策と継続的ガバナンスを両輪で回すには？～","url":"https://cybersecurity-jp.com/event/118359","source":"cybersecurity-jp","category":"other","publishedAt":"2026-11-17T01:04:17.000Z","firstSeenAt":"2026-11-17T07:55:53.142Z"},
+    {"title":"日清食品のLINE登録者情報137万件が漏えい、委託先利用のCOMSBIが不正アクセス被害","url":"https://cybersecurity-jp.com/news/118522","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-17T00:30:56.000Z","firstSeenAt":"2026-11-17T07:55:53.142Z"},
+    {"title":"バンダイナムコの物流子会社が不正アクセスを受け一番くじ関連で延べ41万件超漏えいのおそれ","url":"https://cybersecurity-jp.com/news/118523","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-17T00:29:00.000Z","firstSeenAt":"2026-11-17T07:55:53.142Z"},
+    {"title":"ピクシブがNotion AIのチャット記録19件の漏えいのおそれを公表","url":"https://cybersecurity-jp.com/news/118524","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-17T00:27:06.000Z","firstSeenAt":"2026-11-17T07:55:53.142Z"},
+    {"title":"ストレージ製品「Dell PowerStore」の複数の脆弱性","url":"https://www.security-next.com/192903","source":"security-next","category":"vuln","publishedAt":"2026-11-17T00:26:06.000Z","firstSeenAt":"2026-11-17T07:55:53.142Z"},
+    {"title":"「Go」のビルド関連機能に脆弱性 - 修正版が公開","url":"https://www.security-next.com/192934","source":"security-next","category":"vuln","publishedAt":"2026-11-17T00:10:13.000Z","firstSeenAt":"2026-11-17T07:55:53.142Z"},
+    {"title":"「Apache TomEE」が脆弱性38件に対処 - 対象モジュールの削除も","url":"https://www.security-next.com/192927","source":"security-next","category":"vuln","publishedAt":"2026-11-17T00:07:58.000Z","firstSeenAt":"2026-11-17T07:55:53.142Z"},
     {"title":"When I'm Twenty-Eight 第1回 中島明日香","url":"https://scan.netsecurity.ne.jp/article/2026/11/17/56812.html","source":"scan-netsecurity","category":"other","publishedAt":"2026-11-16T23:20:02.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
     {"title":"ユナイテッド・スーパーマーケット・ホールディングス株式会社が Securify で実践する、現業部門を巻き込んだ継続的リスク管理","url":"https://scan.netsecurity.ne.jp/article/2026/11/17/56811.html","source":"scan-netsecurity","category":"other","publishedAt":"2026-11-16T23:15:02.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
     {"title":"出社や顧客訪問で1日5,000円支給、新卒総合職 月10万円 ～ HENNGE「対面コミュニケーション賞与」さらに増額","url":"https://scan.netsecurity.ne.jp/article/2026/11/17/56810.html","source":"scan-netsecurity","category":"other","publishedAt":"2026-11-16T23:10:03.000Z","firstSeenAt":"2026-11-16T23:44:51.441Z"},
