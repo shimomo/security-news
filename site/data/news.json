@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T07:55:53.142Z",
+  "updatedAt": "2026-11-17T18:35:23.332Z",
   "sources": [
     {"id":"security-next","name":"Security NEXT","site":"https://www.security-next.com/","ok":true},
     {"id":"scan-netsecurity","name":"ScanNetSecurity","site":"https://scan.netsecurity.ne.jp/","ok":true},
@@ -10,6 +10,14 @@
     {"id":"ipa","name":"IPA","site":"https://www.ipa.go.jp/security/","ok":true}
   ],
   "items": [
+    {"title":"プレイドのCXプラットフォーム「KARTE」への不正アクセスについてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/18/010752","source":"piyolog","category":"incident","publishedAt":"2026-11-17T16:07:52.000Z","firstSeenAt":"2026-11-17T18:35:23.332Z"},
+    {"title":"太陽光発電遠隔監視サービスで侵害 - ポイント不正交換も","url":"https://www.security-next.com/192657","source":"security-next","category":"incident","publishedAt":"2026-11-17T13:42:49.000Z","firstSeenAt":"2026-11-17T18:35:23.332Z"},
+    {"title":"防災製品部の出荷管理システムで侵害か - 古河電工グループ会社","url":"https://www.security-next.com/192962","source":"security-next","category":"incident","publishedAt":"2026-11-17T13:21:22.000Z","firstSeenAt":"2026-11-17T18:35:23.332Z"},
+    {"title":"宝くじサイトやアプリに不正ログイン - パスワード不正変更も","url":"https://www.security-next.com/192870","source":"security-next","category":"incident","publishedAt":"2026-11-17T12:37:11.000Z","firstSeenAt":"2026-11-17T18:35:23.332Z"},
+    {"title":"証券会社かたる「フィッシング」 - 情報流出の通知なども偽装","url":"https://www.security-next.com/192972","source":"security-next","category":"incident","publishedAt":"2026-11-17T11:10:47.000Z","firstSeenAt":"2026-11-17T18:35:23.332Z"},
+    {"title":"電子マネー基盤「Pokepay」への不正アクセスについてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/17/192656","source":"piyolog","category":"incident","publishedAt":"2026-11-17T10:26:56.000Z","firstSeenAt":"2026-11-17T18:35:23.332Z"},
+    {"title":"「GitLab」に37件の脆弱性 - 重要度「High」が4件","url":"https://www.security-next.com/192966","source":"security-next","category":"vuln","publishedAt":"2026-11-17T10:05:15.000Z","firstSeenAt":"2026-11-17T18:35:23.332Z"},
+    {"title":"従業員情報含むファイルをメールで誤送信 - 三菱ガス化学","url":"https://www.security-next.com/192498","source":"security-next","category":"incident","publishedAt":"2026-11-17T08:18:07.000Z","firstSeenAt":"2026-11-17T18:35:23.332Z"},
     {"title":"FrancfrancがKARTE不正アクセスで会員情報最大598万件の流出可能性を公表","url":"https://cybersecurity-jp.com/news/118584","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-17T07:45:07.000Z","firstSeenAt":"2026-11-17T07:55:53.142Z"},
     {"title":"アインズ＆トルペ・アユーラ、KARTE不正アクセスで会員情報最大260万件流出か","url":"https://cybersecurity-jp.com/news/118585","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-17T07:41:55.000Z","firstSeenAt":"2026-11-17T07:55:53.142Z"},
     {"title":"ワールドがKARTE不正アクセスで会員情報の一部漏えいを公表し件数は調査中","url":"https://cybersecurity-jp.com/news/118586","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-17T07:39:10.000Z","firstSeenAt":"2026-11-17T07:55:53.142Z"},
