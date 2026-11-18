@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T11:42:55.386Z",
+  "updatedAt": "2026-11-18T20:32:03.433Z",
   "sources": [
     {"id":"security-next","name":"Security NEXT","site":"https://www.security-next.com/","ok":true},
     {"id":"scan-netsecurity","name":"ScanNetSecurity","site":"https://scan.netsecurity.ne.jp/","ok":true},
@@ -10,6 +10,11 @@
     {"id":"ipa","name":"IPA","site":"https://www.ipa.go.jp/security/","ok":true}
   ],
   "items": [
+    {"title":"OpenJDK の脆弱性 CVE-2026-114938(Java4Shell)についてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/19/001205","source":"piyolog","category":"vuln","publishedAt":"2026-11-18T15:12:05.000Z","firstSeenAt":"2026-11-18T20:32:03.433Z"},
+    {"title":"2026年3Qのセキュ相談、12.1％減 - 「不正ログイン」は高水準","url":"https://www.security-next.com/192083","source":"security-next","category":"incident","publishedAt":"2026-11-18T14:43:27.000Z","firstSeenAt":"2026-11-18T20:32:03.433Z"},
+    {"title":"年収や資産情報など個人情報流出の可能性 - 楽天証券","url":"https://www.security-next.com/193015","source":"security-next","category":"incident","publishedAt":"2026-11-18T14:25:28.000Z","firstSeenAt":"2026-11-18T20:32:03.433Z"},
+    {"title":"理研「富岳」で侵害 - 窃取情報で他システムへの攻撃試行も","url":"https://www.security-next.com/192952","source":"security-next","category":"incident","publishedAt":"2026-11-18T14:24:42.000Z","firstSeenAt":"2026-11-18T20:32:03.433Z"},
+    {"title":"法人顧客向けサイトで顧客情報が閲覧可能に - 日本郵便","url":"https://www.security-next.com/192585","source":"security-next","category":"other","publishedAt":"2026-11-18T11:45:04.000Z","firstSeenAt":"2026-11-18T20:32:03.433Z"},
     {"title":"日本で最も使われているパスワードは「pass1111」　NordPass調査","url":"https://www.itmedia.co.jp/news/article/2611/18/2000003304/","source":"itmedia","category":"other","publishedAt":"2026-11-18T08:42:23.000Z","firstSeenAt":"2026-11-18T11:42:55.386Z"},
     {"title":"Oracle、のべ655件の修正パッチを公開 - 深刻な脆弱性も解消","url":"https://www.security-next.com/193031","source":"security-next","category":"vuln","publishedAt":"2026-11-18T05:59:00.000Z","firstSeenAt":"2026-11-18T11:42:55.386Z"},
     {"title":"「Puppet Enterprise」RCE脆弱性、悪用を確認 - 米当局が注意喚起","url":"https://www.security-next.com/193016","source":"security-next","category":"vuln","publishedAt":"2026-11-18T03:31:00.000Z","firstSeenAt":"2026-11-18T11:42:55.386Z"},
