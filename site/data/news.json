@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T11:41:50.760Z",
+  "updatedAt": "2026-11-19T20:38:29.727Z",
   "sources": [
     {"id":"security-next","name":"Security NEXT","site":"https://www.security-next.com/","ok":true},
     {"id":"scan-netsecurity","name":"ScanNetSecurity","site":"https://scan.netsecurity.ne.jp/","ok":true},
@@ -10,6 +10,12 @@
     {"id":"ipa","name":"IPA","site":"https://www.ipa.go.jp/security/","ok":true}
   ],
   "items": [
+    {"title":"11月に修正されたPHPの脆弱性についてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/20/003148","source":"piyolog","category":"vuln","publishedAt":"2026-11-19T15:31:48.000Z","firstSeenAt":"2026-11-19T20:38:29.727Z"},
+    {"title":"「OpenJDK」に脆弱性、PoCも - 修正版が公開","url":"https://www.security-next.com/193112","source":"security-next","category":"vuln","publishedAt":"2026-11-19T14:54:38.000Z","firstSeenAt":"2026-11-19T20:38:29.727Z"},
+    {"title":"店頭体験レッスン予約システムで個人情報が流出 - コーセー","url":"https://www.security-next.com/193020","source":"security-next","category":"incident","publishedAt":"2026-11-19T13:04:04.000Z","firstSeenAt":"2026-11-19T20:38:29.727Z"},
+    {"title":"ランサム攻撃で生産関連システムが停止、出荷に影響 - 大崎電気工業","url":"https://www.security-next.com/193088","source":"security-next","category":"incident","publishedAt":"2026-11-19T12:28:50.000Z","firstSeenAt":"2026-11-19T20:38:29.727Z"},
+    {"title":"「PHP」にクリティカル脆弱性 - 日本時間11月19日夜に修正版","url":"https://www.security-next.com/193114","source":"security-next","category":"vuln","publishedAt":"2026-11-19T11:39:21.000Z","firstSeenAt":"2026-11-19T20:38:29.727Z"},
+    {"title":"JETROの一部サイトに不正アクセス - 個人情報が流出","url":"https://www.security-next.com/192759","source":"security-next","category":"incident","publishedAt":"2026-11-19T10:47:33.000Z","firstSeenAt":"2026-11-19T20:38:29.727Z"},
     {"title":"「焼肉きんぐ」「ゆず庵」など11アプリ、会員の氏名・電話番号の項目を廃止　予定を前倒し","url":"https://www.itmedia.co.jp/news/article/2611/19/2000003344/","source":"itmedia","category":"other","publishedAt":"2026-11-19T09:53:00.000Z","firstSeenAt":"2026-11-19T11:41:50.760Z"},
     {"title":"物流代行サービス「オープンロジ」への不正アクセスについてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/19/183634","source":"piyolog","category":"incident","publishedAt":"2026-11-19T09:36:34.000Z","firstSeenAt":"2026-11-19T11:41:50.760Z"},
     {"title":"旧版「Apache Axis」に脆弱性、悪用も - 後継版などへ移行を","url":"https://www.security-next.com/193011","source":"security-next","category":"vuln","publishedAt":"2026-11-19T06:18:16.000Z","firstSeenAt":"2026-11-19T11:41:50.760Z"},
