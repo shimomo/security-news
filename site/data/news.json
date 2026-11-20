@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T02:20:08.857Z",
+  "updatedAt": "2026-11-20T11:41:01.839Z",
   "sources": [
     {"id":"security-next","name":"Security NEXT","site":"https://www.security-next.com/","ok":true},
     {"id":"scan-netsecurity","name":"ScanNetSecurity","site":"https://scan.netsecurity.ne.jp/","ok":true},
@@ -10,6 +10,11 @@
     {"id":"ipa","name":"IPA","site":"https://www.ipa.go.jp/security/","ok":true}
   ],
   "items": [
+    {"title":"Payどん委託先のインフキュリオンが不正アクセス被害で個人情報25万1,172件が漏えい","url":"https://cybersecurity-jp.com/news/118703","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-20T08:08:17.000Z","firstSeenAt":"2026-11-20T11:41:01.839Z"},
+    {"title":"「Splunk SOAR」に複数のRCE脆弱性 - アップデートを提供","url":"https://www.security-next.com/193173","source":"security-next","category":"vuln","publishedAt":"2026-11-20T05:31:17.000Z","firstSeenAt":"2026-11-20T11:41:01.839Z"},
+    {"title":"Microsoft、AIによるサイバー攻撃にAIエージェントで対抗する新サービス「Microsoft Perception」提供開始","url":"https://www.itmedia.co.jp/news/article/2611/20/2000003368/","source":"itmedia","category":"incident","publishedAt":"2026-11-20T04:29:35.000Z","firstSeenAt":"2026-11-20T11:41:01.839Z"},
+    {"title":"北海道3市町委託先のマルウェア感染についてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/20/130214","source":"piyolog","category":"other","publishedAt":"2026-11-20T04:02:14.000Z","firstSeenAt":"2026-11-20T11:41:01.839Z"},
+    {"title":"「WatchGuard」のログ管理ソフトに脆弱性 - クリティカルも","url":"https://www.security-next.com/193154","source":"security-next","category":"vuln","publishedAt":"2026-11-20T02:38:19.000Z","firstSeenAt":"2026-11-20T11:41:01.839Z"},
     {"title":"シャープ通販のKARTEが不正アクセス被害 顧客情報最大326万件流出のおそれ","url":"https://cybersecurity-jp.com/news/118661","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-20T00:36:32.000Z","firstSeenAt":"2026-11-20T02:20:08.857Z"},
     {"title":"タイミーが委託先KARTEの不正アクセスで求人事業者22万人超の情報漏えいを発表","url":"https://cybersecurity-jp.com/news/118663","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-20T00:23:07.000Z","firstSeenAt":"2026-11-20T02:20:08.857Z"},
     {"title":"「VMware vCenter」に認証回避の脆弱性 - ゼロデイ攻撃も","url":"https://www.security-next.com/193141","source":"security-next","category":"vuln","publishedAt":"2026-11-20T00:08:23.000Z","firstSeenAt":"2026-11-20T02:20:08.857Z"},
@@ -37,6 +42,7 @@
     {"title":"Oracle Java に関するセキュリティ更新プログラム公表、ネットワーク経由で攻撃を受ける可能性のある脆弱性も","url":"https://scan.netsecurity.ne.jp/article/2026/11/20/56849.html","source":"scan-netsecurity","category":"vuln","publishedAt":"2026-11-19T23:00:08.000Z","firstSeenAt":"2026-11-20T02:20:08.857Z"},
     {"title":"サイバーセキュリティ総研、悪用確認済みの脆弱性を日本語で届ける無料「脆弱性速報メール」配信","url":"https://scan.netsecurity.ne.jp/article/2026/11/20/56848.html","source":"scan-netsecurity","category":"vuln","publishedAt":"2026-11-19T23:00:03.000Z","firstSeenAt":"2026-11-20T02:20:08.857Z"},
     {"title":"11月に修正されたPHPの脆弱性についてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/20/003148","source":"piyolog","category":"vuln","publishedAt":"2026-11-19T15:31:48.000Z","firstSeenAt":"2026-11-19T20:38:29.727Z"},
+    {"title":"PHPの脆弱性対策について（2026年11月）","url":"https://www.ipa.go.jp/security/security-alert/2026/alert20261120.html","source":"ipa","category":"vuln","publishedAt":"2026-11-19T15:00:00.000Z","firstSeenAt":"2026-11-20T11:41:01.839Z"},
     {"title":"「OpenJDK」に脆弱性、PoCも - 修正版が公開","url":"https://www.security-next.com/193112","source":"security-next","category":"vuln","publishedAt":"2026-11-19T14:54:38.000Z","firstSeenAt":"2026-11-19T20:38:29.727Z"},
     {"title":"店頭体験レッスン予約システムで個人情報が流出 - コーセー","url":"https://www.security-next.com/193020","source":"security-next","category":"incident","publishedAt":"2026-11-19T13:04:04.000Z","firstSeenAt":"2026-11-19T20:38:29.727Z"},
     {"title":"ランサム攻撃で生産関連システムが停止、出荷に影響 - 大崎電気工業","url":"https://www.security-next.com/193088","source":"security-next","category":"incident","publishedAt":"2026-11-19T12:28:50.000Z","firstSeenAt":"2026-11-19T20:38:29.727Z"},
