@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T11:41:01.839Z",
+  "updatedAt": "2026-11-20T20:21:41.315Z",
   "sources": [
     {"id":"security-next","name":"Security NEXT","site":"https://www.security-next.com/","ok":true},
     {"id":"scan-netsecurity","name":"ScanNetSecurity","site":"https://scan.netsecurity.ne.jp/","ok":true},
@@ -10,9 +10,18 @@
     {"id":"ipa","name":"IPA","site":"https://www.ipa.go.jp/security/","ok":true}
   ],
   "items": [
+    {"title":"デジタル庁が運用するGSSのファイル共有サービスからの情報漏えい可能性についてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/21/002438","source":"piyolog","category":"incident","publishedAt":"2026-11-20T15:24:38.000Z","firstSeenAt":"2026-11-20T20:21:41.315Z"},
+    {"title":"個人情報管理システムが侵害、脆弱性対応中に判明 - 早稲田大","url":"https://www.security-next.com/192578","source":"security-next","category":"incident","publishedAt":"2026-11-20T15:01:45.000Z","firstSeenAt":"2026-11-20T20:21:41.315Z"},
+    {"title":"買い物アプリのシステムに侵害、内部に個人情報 - USMH","url":"https://www.security-next.com/192800","source":"security-next","category":"incident","publishedAt":"2026-11-20T14:30:55.000Z","firstSeenAt":"2026-11-20T20:21:41.315Z"},
+    {"title":"受注管理システム「GoQSystem」への不正アクセスについてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/20/225808","source":"piyolog","category":"incident","publishedAt":"2026-11-20T13:58:08.000Z","firstSeenAt":"2026-11-20T20:21:41.315Z"},
+    {"title":"Ruby の脆弱性 CVE-2026-132825(Ruby2Shell)についてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/20/224814","source":"piyolog","category":"vuln","publishedAt":"2026-11-20T13:48:14.000Z","firstSeenAt":"2026-11-20T20:21:41.315Z"},
+    {"title":"通販サイト内に不正ファイル、個人情報流出の可能性 - ソフト99","url":"https://www.security-next.com/192805","source":"security-next","category":"incident","publishedAt":"2026-11-20T13:38:06.000Z","firstSeenAt":"2026-11-20T20:21:41.315Z"},
+    {"title":"デジ庁、政府機関向けファイル共有サービスで漏えいか　7月末から第三者がアクセス","url":"https://www.itmedia.co.jp/news/article/2611/20/2000003381/","source":"itmedia","category":"incident","publishedAt":"2026-11-20T12:18:07.000Z","firstSeenAt":"2026-11-20T20:21:41.315Z"},
+    {"title":"クラウド環境や業務ツールに不正アクセス、個人情報流出 - Gunosy","url":"https://www.security-next.com/193094","source":"security-next","category":"incident","publishedAt":"2026-11-20T11:21:03.000Z","firstSeenAt":"2026-11-20T20:21:41.315Z"},
     {"title":"Payどん委託先のインフキュリオンが不正アクセス被害で個人情報25万1,172件が漏えい","url":"https://cybersecurity-jp.com/news/118703","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-20T08:08:17.000Z","firstSeenAt":"2026-11-20T11:41:01.839Z"},
     {"title":"「Splunk SOAR」に複数のRCE脆弱性 - アップデートを提供","url":"https://www.security-next.com/193173","source":"security-next","category":"vuln","publishedAt":"2026-11-20T05:31:17.000Z","firstSeenAt":"2026-11-20T11:41:01.839Z"},
     {"title":"Microsoft、AIによるサイバー攻撃にAIエージェントで対抗する新サービス「Microsoft Perception」提供開始","url":"https://www.itmedia.co.jp/news/article/2611/20/2000003368/","source":"itmedia","category":"incident","publishedAt":"2026-11-20T04:29:35.000Z","firstSeenAt":"2026-11-20T11:41:01.839Z"},
+    {"title":"リフォーム管理システムに不正アクセス - ヤマダデンキ","url":"https://www.security-next.com/192867","source":"security-next","category":"incident","publishedAt":"2026-11-20T04:23:33.000Z","firstSeenAt":"2026-11-20T20:21:41.315Z"},
     {"title":"北海道3市町委託先のマルウェア感染についてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/20/130214","source":"piyolog","category":"other","publishedAt":"2026-11-20T04:02:14.000Z","firstSeenAt":"2026-11-20T11:41:01.839Z"},
     {"title":"「WatchGuard」のログ管理ソフトに脆弱性 - クリティカルも","url":"https://www.security-next.com/193154","source":"security-next","category":"vuln","publishedAt":"2026-11-20T02:38:19.000Z","firstSeenAt":"2026-11-20T11:41:01.839Z"},
     {"title":"シャープ通販のKARTEが不正アクセス被害 顧客情報最大326万件流出のおそれ","url":"https://cybersecurity-jp.com/news/118661","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-20T00:36:32.000Z","firstSeenAt":"2026-11-20T02:20:08.857Z"},
