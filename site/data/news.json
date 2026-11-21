@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T20:21:41.315Z",
+  "updatedAt": "2026-11-21T02:16:14.016Z",
   "sources": [
     {"id":"security-next","name":"Security NEXT","site":"https://www.security-next.com/","ok":true},
     {"id":"scan-netsecurity","name":"ScanNetSecurity","site":"https://scan.netsecurity.ne.jp/","ok":true},
@@ -10,6 +10,12 @@
     {"id":"ipa","name":"IPA","site":"https://www.ipa.go.jp/security/","ok":true}
   ],
   "items": [
+    {"title":"理研が富岳と理究への不正アクセス第2報を公表し秘密鍵430件に持ち出しの痕跡を確認","url":"https://cybersecurity-jp.com/news/118714","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-20T23:27:56.000Z","firstSeenAt":"2026-11-21T02:16:14.016Z"},
+    {"title":"プレイドがKARTE不正アクセスの調査結果を公表、影響は延べ約2,200社に","url":"https://cybersecurity-jp.com/news/118713","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-20T23:27:03.000Z","firstSeenAt":"2026-11-21T02:16:14.016Z"},
+    {"title":"三井住友銀行がKARTEへの不正アクセスで顧客情報最大約1,400万件の漏えいを発表","url":"https://cybersecurity-jp.com/news/118712","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-20T23:25:30.000Z","firstSeenAt":"2026-11-21T02:16:14.016Z"},
+    {"title":"丸井グループが委託先KARTEの不正アクセスで顧客情報延べ約1,733万件が漏えい","url":"https://cybersecurity-jp.com/news/118711","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-20T23:24:36.000Z","firstSeenAt":"2026-11-21T02:16:14.016Z"},
+    {"title":"ZOZOがKARTE不正アクセスでZOZOTOWN会員約1,518万人の情報漏えいを発表","url":"https://cybersecurity-jp.com/news/118710","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-20T23:23:20.000Z","firstSeenAt":"2026-11-21T02:16:14.016Z"},
+    {"title":"デジタル庁の政府共通基盤GSSで不正アクセスが発生し会議資料などが漏えいした可能性","url":"https://cybersecurity-jp.com/news/118709","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-20T23:22:04.000Z","firstSeenAt":"2026-11-21T02:16:14.016Z"},
     {"title":"デジタル庁が運用するGSSのファイル共有サービスからの情報漏えい可能性についてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/21/002438","source":"piyolog","category":"incident","publishedAt":"2026-11-20T15:24:38.000Z","firstSeenAt":"2026-11-20T20:21:41.315Z"},
     {"title":"個人情報管理システムが侵害、脆弱性対応中に判明 - 早稲田大","url":"https://www.security-next.com/192578","source":"security-next","category":"incident","publishedAt":"2026-11-20T15:01:45.000Z","firstSeenAt":"2026-11-20T20:21:41.315Z"},
     {"title":"買い物アプリのシステムに侵害、内部に個人情報 - USMH","url":"https://www.security-next.com/192800","source":"security-next","category":"incident","publishedAt":"2026-11-20T14:30:55.000Z","firstSeenAt":"2026-11-20T20:21:41.315Z"},
