@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T02:16:14.016Z",
+  "updatedAt": "2026-11-22T01:20:12.860Z",
   "sources": [
     {"id":"security-next","name":"Security NEXT","site":"https://www.security-next.com/","ok":true},
     {"id":"scan-netsecurity","name":"ScanNetSecurity","site":"https://scan.netsecurity.ne.jp/","ok":true},
@@ -10,6 +10,12 @@
     {"id":"ipa","name":"IPA","site":"https://www.ipa.go.jp/security/","ok":true}
   ],
   "items": [
+    {"title":"ピーチ・アビエーションが委託先への不正アクセスで顧客899万件の情報漏えいを発表","url":"https://cybersecurity-jp.com/news/118777","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-22T00:26:14.000Z","firstSeenAt":"2026-11-22T01:20:12.860Z"},
+    {"title":"毎日新聞社がデジタル会員約14万人分の姓の漏えいを発表 委託先KARTEが不正アクセス","url":"https://cybersecurity-jp.com/news/118766","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-21T23:44:34.000Z","firstSeenAt":"2026-11-22T01:20:12.860Z"},
+    {"title":"六花亭がオンラインショップのカード情報流出でカード不正利用1件を確認と発表","url":"https://cybersecurity-jp.com/news/118765","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-21T23:43:09.000Z","firstSeenAt":"2026-11-22T01:20:12.860Z"},
+    {"title":"メルカリ、Notion AI委託先への不正アクセスで3,796名分の情報流出のおそれ","url":"https://cybersecurity-jp.com/news/118764","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-21T23:41:36.000Z","firstSeenAt":"2026-11-22T01:20:12.860Z"},
+    {"title":"早稲田大学のMyWasedaログイン用ユーザー情報管理システムが不正アクセスを受け延べ3,342件の情報が漏えい","url":"https://cybersecurity-jp.com/news/118763","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-21T23:39:46.000Z","firstSeenAt":"2026-11-22T01:20:12.860Z"},
+    {"title":"西宮市と尼崎市のメールアドレス計4万件超が流出 アララへの不正アクセスが原因","url":"https://cybersecurity-jp.com/news/118762","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-21T23:38:14.000Z","firstSeenAt":"2026-11-22T01:20:12.860Z"},
     {"title":"理研が富岳と理究への不正アクセス第2報を公表し秘密鍵430件に持ち出しの痕跡を確認","url":"https://cybersecurity-jp.com/news/118714","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-20T23:27:56.000Z","firstSeenAt":"2026-11-21T02:16:14.016Z"},
     {"title":"プレイドがKARTE不正アクセスの調査結果を公表、影響は延べ約2,200社に","url":"https://cybersecurity-jp.com/news/118713","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-20T23:27:03.000Z","firstSeenAt":"2026-11-21T02:16:14.016Z"},
     {"title":"三井住友銀行がKARTEへの不正アクセスで顧客情報最大約1,400万件の漏えいを発表","url":"https://cybersecurity-jp.com/news/118712","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-20T23:25:30.000Z","firstSeenAt":"2026-11-21T02:16:14.016Z"},
