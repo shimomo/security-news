@@ -57,4 +57,4 @@ test/               テスト
 
 ## ライセンス
 
-国内セキュリティニュースは [MIT license](LICENSE) の元で公開されています。
+国内セキュリティニュースは [MIT license](LICENSE) の下で公開されています。
