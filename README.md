@@ -54,3 +54,7 @@ site/               公開するページ（index.html, app.js, core.js, style.c
 site/data/news.json 集めた見出しとリンク（自動更新）
 test/               テスト
 ```
+
+## ライセンス
+
+国内セキュリティニュースは [MIT license](LICENSE) の元で公開されています。
