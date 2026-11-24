@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T02:13:04.851Z",
+  "updatedAt": "2026-11-24T13:44:06.607Z",
   "sources": [
     {"id":"security-next","name":"Security NEXT","site":"https://www.security-next.com/","ok":true},
     {"id":"scan-netsecurity","name":"ScanNetSecurity","site":"https://scan.netsecurity.ne.jp/","ok":true},
@@ -10,6 +10,15 @@
     {"id":"ipa","name":"IPA","site":"https://www.ipa.go.jp/security/","ok":true}
   ],
   "items": [
+    {"title":"AIペネトレーションテスト基盤「Cairn」が大学への攻撃で見つけたゼロデイについてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/24/214547","source":"piyolog","category":"vuln","publishedAt":"2026-11-24T12:45:47.000Z","firstSeenAt":"2026-11-24T13:44:06.607Z"},
+    {"title":"仮想化管理ツール「Xen Orchestra」に脆弱性 - 順次修正対応","url":"https://www.security-next.com/193248","source":"security-next","category":"vuln","publishedAt":"2026-11-24T11:40:19.000Z","firstSeenAt":"2026-11-24T13:44:06.607Z"},
+    {"title":"JAXAの地球観測データ公開システムに不正アクセス、利用者2,000名のアカウント情報が流出","url":"https://cybersecurity-jp.com/news/118876","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-24T07:25:30.000Z","firstSeenAt":"2026-11-24T13:44:06.607Z"},
+    {"title":"カウネットがKARTE不正アクセスによる30万525件の情報漏えいを第2報で公表","url":"https://cybersecurity-jp.com/news/118877","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-24T07:23:41.000Z","firstSeenAt":"2026-11-24T13:44:06.607Z"},
+    {"title":"サントリーウエルネス、Comado、KARTE不正アクセスで最大94万7,667件漏えい","url":"https://cybersecurity-jp.com/news/118878","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-24T07:18:42.000Z","firstSeenAt":"2026-11-24T13:44:06.607Z"},
+    {"title":"ニトリホールディングスで不正アクセス、最大3,762万件の個人情報が流出した可能性","url":"https://cybersecurity-jp.com/news/118879","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-24T07:15:26.000Z","firstSeenAt":"2026-11-24T13:44:06.607Z"},
+    {"title":"爆増するサイバー攻撃、魔の手はITだけでなく「OT」にも　元米軍のセキュリティ専門家が警鐘","url":"https://www.itmedia.co.jp/news/article/2611/24/2000003408/","source":"itmedia","category":"incident","publishedAt":"2026-11-24T06:06:51.000Z","firstSeenAt":"2026-11-24T13:44:06.607Z"},
+    {"title":"Synology製NASに深刻な脆弱性 - 修正版を順次提供","url":"https://www.security-next.com/193243","source":"security-next","category":"vuln","publishedAt":"2026-11-24T05:37:37.000Z","firstSeenAt":"2026-11-24T13:44:06.607Z"},
+    {"title":"米当局、悪用が確認された脆弱性6件に注意喚起","url":"https://www.security-next.com/193221","source":"security-next","category":"vuln","publishedAt":"2026-11-24T04:42:27.000Z","firstSeenAt":"2026-11-24T13:44:06.607Z"},
     {"title":"「Chrome」がアップデート - 「クリティカル」脆弱性1件を修正","url":"https://www.security-next.com/193218","source":"security-next","category":"vuln","publishedAt":"2026-11-24T00:43:31.000Z","firstSeenAt":"2026-11-24T02:13:04.851Z"},
     {"title":"「Roundcube」にセキュリティ修正 - 「1.6」系は今回が最後","url":"https://www.security-next.com/193210","source":"security-next","category":"other","publishedAt":"2026-11-24T00:32:42.000Z","firstSeenAt":"2026-11-24T02:13:04.851Z"},
     {"title":"アイルがSaaS検証環境への不正アクセスで顧客情報とAPI認証情報の一部流出を公表","url":"https://cybersecurity-jp.com/news/118781","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-24T00:29:10.000Z","firstSeenAt":"2026-11-24T02:13:04.851Z"},
@@ -37,6 +46,7 @@
     {"title":"NGINX に複数の脆弱性、CVSS v4.0 で 9.2（Critical）評価","url":"https://scan.netsecurity.ne.jp/article/2026/11/24/56869.html","source":"scan-netsecurity","category":"vuln","publishedAt":"2026-11-23T23:00:12.000Z","firstSeenAt":"2026-11-24T02:13:04.851Z"},
     {"title":"富士電機製 TELLUS に複数の脆弱性","url":"https://scan.netsecurity.ne.jp/article/2026/11/24/56868.html","source":"scan-netsecurity","category":"vuln","publishedAt":"2026-11-23T23:00:09.000Z","firstSeenAt":"2026-11-24T02:13:04.851Z"},
     {"title":"プリザンターに複数の脆弱性","url":"https://scan.netsecurity.ne.jp/article/2026/11/24/56867.html","source":"scan-netsecurity","category":"vuln","publishedAt":"2026-11-23T23:00:04.000Z","firstSeenAt":"2026-11-24T02:13:04.851Z"},
+    {"title":"VMware製品の脆弱性対策について(CVE-2026-123890)","url":"https://www.ipa.go.jp/security/security-alert/2026/alert20261124.html","source":"ipa","category":"vuln","publishedAt":"2026-11-23T15:00:00.000Z","firstSeenAt":"2026-11-24T13:44:06.607Z"},
     {"title":"ピーチ・アビエーションが委託先への不正アクセスで顧客899万件の情報漏えいを発表","url":"https://cybersecurity-jp.com/news/118777","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-22T00:26:14.000Z","firstSeenAt":"2026-11-22T01:20:12.860Z"},
     {"title":"毎日新聞社がデジタル会員約14万人分の姓の漏えいを発表 委託先KARTEが不正アクセス","url":"https://cybersecurity-jp.com/news/118766","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-21T23:44:34.000Z","firstSeenAt":"2026-11-22T01:20:12.860Z"},
     {"title":"六花亭がオンラインショップのカード情報流出でカード不正利用1件を確認と発表","url":"https://cybersecurity-jp.com/news/118765","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-21T23:43:09.000Z","firstSeenAt":"2026-11-22T01:20:12.860Z"},
