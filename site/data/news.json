@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T23:53:59.048Z",
+  "updatedAt": "2026-11-25T08:35:19.594Z",
   "sources": [
     {"id":"security-next","name":"Security NEXT","site":"https://www.security-next.com/","ok":true},
     {"id":"scan-netsecurity","name":"ScanNetSecurity","site":"https://scan.netsecurity.ne.jp/","ok":true},
@@ -10,6 +10,15 @@
     {"id":"ipa","name":"IPA","site":"https://www.ipa.go.jp/security/","ok":true}
   ],
   "items": [
+    {"title":"「AEM」に多数の脆弱性 - 3件がクリティカル","url":"https://www.security-next.com/193325","source":"security-next","category":"vuln","publishedAt":"2026-11-25T06:38:04.000Z","firstSeenAt":"2026-11-25T08:35:19.594Z"},
+    {"title":"米CIAとODNIの非機密システムへの不正アクセスについてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/25/120114","source":"piyolog","category":"incident","publishedAt":"2026-11-25T03:01:14.000Z","firstSeenAt":"2026-11-25T08:35:19.594Z"},
+    {"title":"「Drupal」脆弱性、サイト乗っ取りのおそれ - すでに悪用も","url":"https://www.security-next.com/193298","source":"security-next","category":"vuln","publishedAt":"2026-11-25T02:27:13.000Z","firstSeenAt":"2026-11-25T08:35:19.594Z"},
+    {"title":"楽天証券が不正アクセスの第2報を公表、個人情報約441万件の漏えいを確認","url":"https://cybersecurity-jp.com/news/118896","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-25T00:44:02.000Z","firstSeenAt":"2026-11-25T08:35:19.594Z"},
+    {"title":"米当局、「Drupal」など脆弱性3件の悪用に注意喚起","url":"https://www.security-next.com/193290","source":"security-next","category":"vuln","publishedAt":"2026-11-25T00:42:15.000Z","firstSeenAt":"2026-11-25T08:35:19.594Z"},
+    {"title":"GOが委託先KARTEへの不正アクセスで顧客情報約2万件の漏えいの可能性を発表","url":"https://cybersecurity-jp.com/news/118897","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-25T00:39:44.000Z","firstSeenAt":"2026-11-25T08:35:19.594Z"},
+    {"title":"ヴェレダ公式ショップとベレッツァが不正アクセス被害でカード情報漏えいの可能性","url":"https://cybersecurity-jp.com/news/118898","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-25T00:37:55.000Z","firstSeenAt":"2026-11-25T08:35:19.594Z"},
+    {"title":"Microsoft Defenderの脆弱性を悪用するコードが公開 管理者権限奪取の恐れ","url":"https://cybersecurity-jp.com/news/118899","source":"cybersecurity-jp","category":"vuln","publishedAt":"2026-11-25T00:31:45.000Z","firstSeenAt":"2026-11-25T08:35:19.594Z"},
+    {"title":"京王電鉄がランサム被害で最大延べ約1,108万人分の個人情報漏えいの可能性を公表","url":"https://cybersecurity-jp.com/news/118895","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-24T23:58:15.000Z","firstSeenAt":"2026-11-25T08:35:19.594Z"},
     {"title":"「Firefox 161」がリリース - 110件の脆弱性に対応","url":"https://www.security-next.com/193284","source":"security-next","category":"vuln","publishedAt":"2026-11-24T23:50:06.000Z","firstSeenAt":"2026-11-24T23:53:59.048Z"},
     {"title":"「Thunderbird」に深刻な脆弱性 - 署名付メールで詐称可能","url":"https://www.security-next.com/193277","source":"security-next","category":"vuln","publishedAt":"2026-11-24T23:35:02.000Z","firstSeenAt":"2026-11-24T23:53:59.048Z"},
     {"title":"Microsoft Defender のクラウド関連処理における不備により特権レジストリキーが操作可能となる脆弱性（Scan Tech Report）","url":"https://scan.netsecurity.ne.jp/article/2026/11/25/56897.html","source":"scan-netsecurity","category":"vuln","publishedAt":"2026-11-24T23:10:02.000Z","firstSeenAt":"2026-11-24T23:53:59.048Z"},
