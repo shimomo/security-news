@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T08:35:19.594Z",
+  "updatedAt": "2026-11-25T19:17:21.802Z",
   "sources": [
     {"id":"security-next","name":"Security NEXT","site":"https://www.security-next.com/","ok":true},
     {"id":"scan-netsecurity","name":"ScanNetSecurity","site":"https://scan.netsecurity.ne.jp/","ok":true},
@@ -10,6 +10,10 @@
     {"id":"ipa","name":"IPA","site":"https://www.ipa.go.jp/security/","ok":true}
   ],
   "items": [
+    {"title":"ランサム攻撃で個人情報流出、パスポート写しも - 京王電鉄","url":"https://www.security-next.com/193305","source":"security-next","category":"incident","publishedAt":"2026-11-25T14:12:41.000Z","firstSeenAt":"2026-11-25T19:17:21.802Z"},
+    {"title":"アプリの顧客情報DBに不正アクセス - マクドナルド","url":"https://www.security-next.com/193232","source":"security-next","category":"incident","publishedAt":"2026-11-25T13:13:26.000Z","firstSeenAt":"2026-11-25T19:17:21.802Z"},
+    {"title":"通販サイトに不正アクセス、会員情報改ざんや不正注文も - DHC","url":"https://www.security-next.com/193316","source":"security-next","category":"incident","publishedAt":"2026-11-25T12:39:40.000Z","firstSeenAt":"2026-11-25T19:17:21.802Z"},
+    {"title":"旧市立病院の廃棄書類が飛散、収集車の積載不備で - 西宮市","url":"https://www.security-next.com/193025","source":"security-next","category":"other","publishedAt":"2026-11-25T11:53:36.000Z","firstSeenAt":"2026-11-25T19:17:21.802Z"},
     {"title":"「AEM」に多数の脆弱性 - 3件がクリティカル","url":"https://www.security-next.com/193325","source":"security-next","category":"vuln","publishedAt":"2026-11-25T06:38:04.000Z","firstSeenAt":"2026-11-25T08:35:19.594Z"},
     {"title":"米CIAとODNIの非機密システムへの不正アクセスについてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/25/120114","source":"piyolog","category":"incident","publishedAt":"2026-11-25T03:01:14.000Z","firstSeenAt":"2026-11-25T08:35:19.594Z"},
     {"title":"「Drupal」脆弱性、サイト乗っ取りのおそれ - すでに悪用も","url":"https://www.security-next.com/193298","source":"security-next","category":"vuln","publishedAt":"2026-11-25T02:27:13.000Z","firstSeenAt":"2026-11-25T08:35:19.594Z"},
