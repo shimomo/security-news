@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T03:34:58.136Z",
+  "updatedAt": "2026-11-26T16:55:33.687Z",
   "sources": [
     {"id":"security-next","name":"Security NEXT","site":"https://www.security-next.com/","ok":true},
     {"id":"scan-netsecurity","name":"ScanNetSecurity","site":"https://scan.netsecurity.ne.jp/","ok":true},
@@ -10,8 +10,19 @@
     {"id":"ipa","name":"IPA","site":"https://www.ipa.go.jp/security/","ok":true}
   ],
   "items": [
+    {"title":"東京都「赤ちゃんファースト」で交換したQUOカードPayが使えなくなった件についてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/27/004031","source":"piyolog","category":"other","publishedAt":"2026-11-26T15:40:31.000Z","firstSeenAt":"2026-11-26T16:55:33.687Z"},
+    {"title":"AI向けストレージ基盤「NVIDIA AIStore」に複数の脆弱性","url":"https://www.security-next.com/193302","source":"security-next","category":"vuln","publishedAt":"2026-11-26T13:09:09.000Z","firstSeenAt":"2026-11-26T16:55:33.687Z"},
+    {"title":"個人情報含むデータが外部に流出 - 富士ユナイトHD","url":"https://www.security-next.com/193313","source":"security-next","category":"incident","publishedAt":"2026-11-26T13:04:57.000Z","firstSeenAt":"2026-11-26T16:55:33.687Z"},
+    {"title":"「Jenkins」の11プラグインに脆弱性 - 修正版を提供","url":"https://www.security-next.com/193385","source":"security-next","category":"vuln","publishedAt":"2026-11-26T12:40:03.000Z","firstSeenAt":"2026-11-26T16:55:33.687Z"},
+    {"title":"ENEOSが公式アプリへの不正アクセスを検知しサービスを停止し漏えいの有無を調査中","url":"https://cybersecurity-jp.com/news/118982","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-26T07:51:13.000Z","firstSeenAt":"2026-11-26T16:55:33.687Z"},
+    {"title":"ニューバランスジャパンがKARTE不正アクセスで最大約374万件の顧客情報漏えいを発表","url":"https://cybersecurity-jp.com/news/118983","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-26T07:49:54.000Z","firstSeenAt":"2026-11-26T16:55:33.687Z"},
+    {"title":"アディーレ法律事務所で委託先への不正アクセスにより個人情報約1,828件が漏えい","url":"https://cybersecurity-jp.com/news/118984","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-26T07:47:50.000Z","firstSeenAt":"2026-11-26T16:55:33.687Z"},
+    {"title":"文部科学省の調達システムに不正アクセス 事業者情報最大16万件超が漏えいのおそれ","url":"https://cybersecurity-jp.com/news/118985","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-26T07:46:21.000Z","firstSeenAt":"2026-11-26T16:55:33.687Z"},
+    {"title":"1Passwordへの不正アクセスについてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/26/153937","source":"piyolog","category":"incident","publishedAt":"2026-11-26T06:39:37.000Z","firstSeenAt":"2026-11-26T16:55:33.687Z"},
     {"title":"GitHubに「人には見えない隠し文字」　小型AIの操作狙うものも……1億4500万件を調査","url":"https://www.itmedia.co.jp/news/article/2611/26/2000003460/","source":"itmedia","category":"other","publishedAt":"2026-11-26T03:00:00.000Z","firstSeenAt":"2026-11-26T03:34:58.136Z"},
+    {"title":"歯科医療人材マッチングサービスで設定ミス - 個人情報が閲覧可能に","url":"https://www.security-next.com/192812","source":"security-next","category":"other","publishedAt":"2026-11-26T02:30:37.000Z","firstSeenAt":"2026-11-26T16:55:33.687Z"},
     {"title":"DellのネットワークOSに深刻な脆弱性 - 800件弱の脆弱性に対応","url":"https://www.security-next.com/193319","source":"security-next","category":"vuln","publishedAt":"2026-11-26T02:03:13.000Z","firstSeenAt":"2026-11-26T03:34:58.136Z"},
+    {"title":"ENEOS公式アプリで侵害、サービス停止 - 影響など調査","url":"https://www.security-next.com/193377","source":"security-next","category":"incident","publishedAt":"2026-11-26T01:59:26.000Z","firstSeenAt":"2026-11-26T16:55:33.687Z"},
     {"title":"不正アプリ導入を促すメール急増 - 「第一生命」などブランド悪用","url":"https://www.security-next.com/193365","source":"security-next","category":"other","publishedAt":"2026-11-26T01:54:57.000Z","firstSeenAt":"2026-11-26T03:34:58.136Z"},
     {"title":"MJS M&Aパートナーズが不正アクセスを受け最大数千社分の情報漏えいのおそれ","url":"https://cybersecurity-jp.com/news/118920","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-26T01:10:25.000Z","firstSeenAt":"2026-11-26T03:34:58.136Z"},
     {"title":"ヤマトホールディングスは不正アクセスを受け個人情報が漏洩した可能性があると発表","url":"https://cybersecurity-jp.com/news/118921","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-26T01:09:00.000Z","firstSeenAt":"2026-11-26T03:34:58.136Z"},
