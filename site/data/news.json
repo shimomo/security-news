@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T12:22:20.598Z",
+  "updatedAt": "2026-11-27T23:28:21.634Z",
   "sources": [
     {"id":"security-next","name":"Security NEXT","site":"https://www.security-next.com/","ok":true},
     {"id":"scan-netsecurity","name":"ScanNetSecurity","site":"https://scan.netsecurity.ne.jp/","ok":true},
@@ -10,6 +10,8 @@
     {"id":"ipa","name":"IPA","site":"https://www.ipa.go.jp/security/","ok":true}
   ],
   "items": [
+    {"title":"化粧品通販サイトに不正アクセス - 個人情報流出の可能性","url":"https://www.security-next.com/193310","source":"security-next","category":"incident","publishedAt":"2026-11-27T14:05:36.000Z","firstSeenAt":"2026-11-27T23:28:21.634Z"},
+    {"title":"契約者向けマイページに不正アクセス、個人情報が流出 - 東京海上ダイレクト","url":"https://www.security-next.com/193168","source":"security-next","category":"incident","publishedAt":"2026-11-27T13:56:19.000Z","firstSeenAt":"2026-11-27T23:28:21.634Z"},
     {"title":"政府調達情報システムのサーバから個人情報流出か - 文科省","url":"https://www.security-next.com/193439","source":"security-next","category":"incident","publishedAt":"2026-11-27T12:12:40.000Z","firstSeenAt":"2026-11-27T12:22:20.598Z"},
     {"title":"「Drupal」が再アップデート、前回更新後も一部サイトは脆弱 - 侵害調査を","url":"https://www.security-next.com/193451","source":"security-next","category":"incident","publishedAt":"2026-11-27T11:57:15.000Z","firstSeenAt":"2026-11-27T12:22:20.598Z"},
     {"title":"ピーチ・アビエーションでKARTE経由の顧客情報が最大のべ約944万件漏えい","url":"https://cybersecurity-jp.com/news/119096","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-27T07:28:06.000Z","firstSeenAt":"2026-11-27T12:22:20.598Z"},
@@ -20,6 +22,7 @@
     {"title":"国分グループ本社がKARTE不正アクセスで8,590件の情報漏えいの可能性","url":"https://cybersecurity-jp.com/news/119101","source":"cybersecurity-jp","category":"incident","publishedAt":"2026-11-27T07:09:22.000Z","firstSeenAt":"2026-11-27T12:22:20.598Z"},
     {"title":"「ARTEX」を使った攻撃の観測と被害組織の公表についてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/27/134842","source":"piyolog","category":"other","publishedAt":"2026-11-27T04:48:42.000Z","firstSeenAt":"2026-11-27T12:22:20.598Z"},
     {"title":"「フィッシング対策訓練」って実効性あるの？　約1.2万人に模擬メール送り検証、結果は……","url":"https://www.itmedia.co.jp/news/article/2611/27/2000003502/","source":"itmedia","category":"other","publishedAt":"2026-11-27T03:00:00.000Z","firstSeenAt":"2026-11-27T12:22:20.598Z"},
+    {"title":"問合フォームで設定不備、個人情報が閲覧可能に - ソースネクスト","url":"https://www.security-next.com/193162","source":"security-next","category":"other","publishedAt":"2026-11-27T01:52:05.000Z","firstSeenAt":"2026-11-27T23:28:21.634Z"},
     {"title":"HPEのネットワーク管理製品「AirWave」に深刻な脆弱性","url":"https://www.security-next.com/193437","source":"security-next","category":"vuln","publishedAt":"2026-11-27T01:50:04.000Z","firstSeenAt":"2026-11-27T12:22:20.598Z"},
     {"title":"組み込みLinux向けツール「BusyBox」に深刻な脆弱性","url":"https://www.security-next.com/193294","source":"security-next","category":"vuln","publishedAt":"2026-11-27T00:42:21.000Z","firstSeenAt":"2026-11-27T01:44:30.900Z"},
     {"title":"「SolarWinds Serv-U」に脆弱性 - 9件が「クリティカル」","url":"https://www.security-next.com/193429","source":"security-next","category":"vuln","publishedAt":"2026-11-27T00:40:37.000Z","firstSeenAt":"2026-11-27T01:44:30.900Z"},
