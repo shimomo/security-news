@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T23:28:21.634Z",
+  "updatedAt": "2026-11-28T07:49:57.224Z",
   "sources": [
     {"id":"security-next","name":"Security NEXT","site":"https://www.security-next.com/","ok":true},
     {"id":"scan-netsecurity","name":"ScanNetSecurity","site":"https://scan.netsecurity.ne.jp/","ok":true},
@@ -10,6 +10,7 @@
     {"id":"ipa","name":"IPA","site":"https://www.ipa.go.jp/security/","ok":true}
   ],
   "items": [
+    {"title":"GMOペパボへの不正アクセスについてまとめてみた","url":"https://piyolog.hatenadiary.jp/entry/2026/11/28/110735","source":"piyolog","category":"incident","publishedAt":"2026-11-28T02:07:35.000Z","firstSeenAt":"2026-11-28T07:49:57.224Z"},
     {"title":"化粧品通販サイトに不正アクセス - 個人情報流出の可能性","url":"https://www.security-next.com/193310","source":"security-next","category":"incident","publishedAt":"2026-11-27T14:05:36.000Z","firstSeenAt":"2026-11-27T23:28:21.634Z"},
     {"title":"契約者向けマイページに不正アクセス、個人情報が流出 - 東京海上ダイレクト","url":"https://www.security-next.com/193168","source":"security-next","category":"incident","publishedAt":"2026-11-27T13:56:19.000Z","firstSeenAt":"2026-11-27T23:28:21.634Z"},
     {"title":"政府調達情報システムのサーバから個人情報流出か - 文科省","url":"https://www.security-next.com/193439","source":"security-next","category":"incident","publishedAt":"2026-11-27T12:12:40.000Z","firstSeenAt":"2026-11-27T12:22:20.598Z"},
